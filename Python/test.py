@@ -1,0 +1,6 @@
+fp = open("sample.csv", "wt", encoding="utf-8")
+fp.write("1,2,3\n")
+fp.write("4,5,6\n")
+fp.write("7,8,9\n")
+fp.write("10,11,12\n")
+fp.close()
